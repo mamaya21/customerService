@@ -19,7 +19,7 @@ public class Customer {
     //tipo de doc: dni o ruc
     //nombre o raz social
     @Id
-    private Integer code;
+    private Integer id;
     private String docType;
     private String docNumber;
     private String fullName;
